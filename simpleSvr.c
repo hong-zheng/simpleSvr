@@ -32,7 +32,7 @@ int main()
                 if ( r == 0 )
                         break ;
                 printf("buf = %s\n",buf) ;
-                memset(buf,0x00,sizeof(buf)) ;
+
                 //fflush(newfd) ;
                 write(newfd,buf,r) ;
         }
